@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.click {
+  border: 2px solid #1e293b;
+}
+.click:hover {
+  box-shadow: 6px 6px 0 0 #1e293b;
+  transform: translate(-6px, -6px);
+}
