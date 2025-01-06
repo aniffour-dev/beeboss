@@ -7,7 +7,7 @@ const Menu = () => {
       <ul className="flex justify-center items-center gap-4">
         <li className="">
           <Link
-            href=""
+            href="/"
             className="font-semibold text-black hover:text-slate-800 duration-300"
           >
             Willkommen

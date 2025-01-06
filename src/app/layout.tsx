@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${pathway.className} ${pathway.className} antialiased`}>
+    <html lang="de" data-theme="light">
+      <body className={`${pathway.className} ${pathway.className} antialiased bg-slate-50`}>
         <Navbar />
         {children}
         <Footer />
